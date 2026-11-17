@@ -1,0 +1,9 @@
+# Segredos: o .env real fica só no servidor
+.env
+.env.*
+!.env.example
+
+# Backups do banco
+backups/
+*.sql
+*.sql.gz
