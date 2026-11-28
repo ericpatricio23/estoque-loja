@@ -86,6 +86,4 @@ O servidor é um PC antigo (all-in-one, 4 GB de RAM, HD) com Ubuntu Server, IP f
 - **Proxy no nginx em vez de CORS:** a interface chama `/api` na própria origem; o nginx remove o cabeçalho `Origin` ao repassar para a API
 - **Teste de restauração antes de confiar no backup:** um backup nunca restaurado não é backup
 
-## Próximos passos
 
-Cópia externa e criptografada do backup, monitoramento, script de atualização com *rollback*, valores monetários em `BigDecimal` e migrações com Flyway.
